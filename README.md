@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/wocommunity/wolifecycle-maven-plugin.svg?branch=master)](https://travis-ci.org/wocommunity/wolifecycle-maven-plugin)
+![Master Build](https://github.com/wocommunity/wolifecycle-maven-plugin/workflows/wolifecycle-maven-plugin%20Master%20Build/badge.svg)
 
 # WOLifecycle Maven Plugin
 
@@ -8,7 +8,7 @@ The wolifecycle-maven-plugin is a Maven plugin to assist in the development and 
 
 ## Usage
 
-You must add the wolifecycle-maven-plugin to the pom.xml in the `build` section according to the following snippet:
+You must add the wolifecycle-maven-plugin to the `pom.xml` in the `build` section according to the following snippet:
 
 ```
 <build>
