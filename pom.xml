@@ -12,6 +12,19 @@
 		<url>http://www.wocommunity.org/</url>
 	</organization>
 
+	  <distributionManagement>
+		<repository>
+		  <id>nexus</id>
+		  <name>Releases</name>
+		  <url>http://localhost:8081/repository/maven-releases</url>
+		</repository>
+		<snapshotRepository>
+		  <id>nexus</id>
+		  <name>Snapshot</name>
+		  <url>http://localhost:8081/repository/maven-snapshots</url>
+		</snapshotRepository>
+	  </distributionManagement>
+
 	<!-- distributionManagement>
 		<repository>
 			<id>wocommunity.deployment</id>
@@ -209,10 +222,17 @@
 		</plugins>
 	</build>
 
-	<scm>
+    <scm>
+        <connection>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</connection>
+        <url>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</url>
+        <developerConnection>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+	<!-- scm>
 		<connection>scm:git:git@github.com:wocommunity/wolifecycle-maven-plugin.git</connection>
 		<url>scm:git:git@github.com:wocommunity/wolifecycle-maven-plugin.git</url>
 		<developerConnection>scm:git:git@github.com:wocommunity/wolifecycle-maven-plugin.git</developerConnection>
 	  <tag>HEAD</tag>
-  </scm>
+  </scm -->
 </project>
