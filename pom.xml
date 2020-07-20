@@ -251,6 +251,7 @@
 					<head>Requires Project:</head>
 				  </tag>
 				</tags>
+  			    <doclint>none</doclint>
 			  </configuration>
 			</plugin>		</plugins>
 	</build>
