@@ -29,12 +29,12 @@
 		<repository>
 			<id>wocommunity.deployment</id>
 			<name>WOCommunity Maven2 Releases Repository</name>
-			<url>http://maven.wocommunity.org/content/repositories/releases</url>
+			<url>https://maven.wocommunity.org/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>wocommunity.deployment</id>
 			<name>WOCommunity Maven2 Snapshots Repository</name>
-			<url>http://maven.wocommunity.org/content/repositories/snapshots/</url>
+			<url>https://maven.wocommunity.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement -->
 
@@ -50,6 +50,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<project.scm.id>github</project.scm.id>
 	</properties>
 
 	<dependencies>
@@ -256,17 +257,10 @@
 			</plugin>		</plugins>
 	</build>
 
-    <scm>
-        <connection>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</connection>
-        <url>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</url>
-        <developerConnection>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
 	<!-- scm>
-		<connection>scm:git:git@github.com:wocommunity/wolifecycle-maven-plugin.git</connection>
-		<url>scm:git:git@github.com:wocommunity/wolifecycle-maven-plugin.git</url>
-		<developerConnection>scm:git:git@github.com:wocommunity/wolifecycle-maven-plugin.git</developerConnection>
+		<connection>scm:git:https://github.com/wocommunity/wolifecycle-maven-plugin.git</connection>
+		<url>scm:git:https://github.com/wocommunity/wolifecycle-maven-plugin.git</url>
+		<developerConnection>scm:git:https://github.com/wocommunity/wolifecycle-maven-plugin.git</developerConnection>
 	  <tag>HEAD</tag>
   </scm -->
 </project>
