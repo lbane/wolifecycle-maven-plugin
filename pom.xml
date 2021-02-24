@@ -257,10 +257,10 @@
 			</plugin>		</plugins>
 	</build>
 
-	<!-- scm>
-		<connection>scm:git:https://github.com/wocommunity/wolifecycle-maven-plugin.git</connection>
-		<url>scm:git:https://github.com/wocommunity/wolifecycle-maven-plugin.git</url>
-		<developerConnection>scm:git:https://github.com/wocommunity/wolifecycle-maven-plugin.git</developerConnection>
+	<scm>
+		<connection>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</connection>
+		<url>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</url>
+		<developerConnection>scm:git:git@github.com:lbane/wolifecycle-maven-plugin.git</developerConnection>
 	  <tag>HEAD</tag>
-  </scm -->
+  </scm>
 </project>
